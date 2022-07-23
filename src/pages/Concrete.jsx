@@ -4,7 +4,7 @@ import Steps from "../Pictures/ConcretePics/Steps-1.jpg"
 import {MdConstruction} from 'react-icons/md'
 function Concrete() { 
   return (
-    <div>
+    <div className='concrete-wrapper'>
       <div className="concrete-service-description">
         <div className='concrete-services'>
           <MdConstruction className='construction-icon'/>
@@ -27,6 +27,20 @@ function Concrete() {
             Stamped Concrete, Steps, Exposed Aggregate,
             Broomed, Smooth Finish, Commercial Ramps, etc
           </p>
+        </div>
+      </div>
+      <p className='steps-header'>Concrete Steps</p>
+      <div className='steps-wrapper'>
+        <div className='steps-card'>
+          <div className='steps-images'>
+            <img src={Steps} />
+          </div>
+          <div className='steps-description'>
+            <p>This is a p tag describing the steps Services
+              fsageth
+              ryj shkwrlthiouweetuyg erighw
+            </p>
+          </div>
         </div>
       </div>
     </div>
