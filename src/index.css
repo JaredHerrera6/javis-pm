@@ -1,9 +1,7 @@
-*{
-  
-}
 body {
   margin:0;
   background: linear-gradient(-180deg, rgba(204, 197, 197, 0.5) 0%, rgba(53, 50, 50, 0.5) 100%) no-repeat center center fixed;
+  overflow-x: hidden;
 }
 footer{
   background-color: rgb(56, 53, 53);
@@ -260,45 +258,16 @@ h2.gallery{
   font-weight: 500;
   position: relative;
   margin-top: 0;
+  text-align: center;
 }
 .col .services{
   margin-bottom: 0;
-}
-.col .aboutjc::before{
-  content:'';
-  position: absolute;
-  left: 0;
-  bottom :-10px;
-  background-color: limegreen;
-  height: 2px;
-  box-sizing: border-box;
-  width:110px;
-}
-.col .longername::before{
-  content:'';
-  position: absolute;
-  left: 0;
-  bottom :-10px;
-  background-color: limegreen;
-  height: 2px;
-  box-sizing: border-box;
-  width:220px;
-}
-.col .services::before{
-  content:'';
-  position: absolute;
-  left: 0;
-  bottom :10px;
-  background-color: limegreen;
-  height: 2px;
-  box-sizing: border-box;
-  width:70px;
 }
 .col ul li:not(:last-child){
   margin-bottom: 10px;
 }
 .col-sm{
-  color:seagreen
+  color:seagreen;
 }
 .slider{
   display: flex;
@@ -318,8 +287,7 @@ h2.gallery{
 }
 .right-arrow{
   position:absolute;
-  top: 50%;
-  right:100px;
+  right:20%;
   font-size: 3rem;
   color:#000;
   z-index: 10;
@@ -328,8 +296,7 @@ h2.gallery{
 }
 .left-arrow{
   position:absolute;
-  top: 50%;
-  left: 100px;
+  left: 20%;
   font-size: 3rem;
   color:#000;
   z-index: 10;
@@ -356,6 +323,7 @@ h2.gallery{
   border-radius: 0.25rem;
   box-shadow: 10px 5px  5px rgb(56, 53, 53);
 }
+
 
 
 

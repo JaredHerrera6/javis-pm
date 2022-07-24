@@ -15,10 +15,10 @@ const ImageSlider = ({ slides }) => {
 
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
-  }
+  } 
 
   return (
-    <section className='slider'>
+    <section className='steps-wrapper'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       {slides.map((slide, index) => {

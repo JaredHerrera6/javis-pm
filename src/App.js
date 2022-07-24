@@ -10,6 +10,7 @@ import YardClean from "./pages/YardClean"
 import AboutUs from "./pages/AboutUs"
 import SnowRemoval from "./pages/SnowRemoval"
 import "./index.css" 
+import "./pages/styles/Concrete.css"
 
 
 

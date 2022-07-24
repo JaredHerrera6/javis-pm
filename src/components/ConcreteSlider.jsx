@@ -1,8 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import "../pages/styles/Concrete.css"
 
 function ConcreteSlider({slides}) {
-    const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(0);
   const length = slides.length;
 
   const nextSlide = () => {
@@ -18,24 +19,23 @@ function ConcreteSlider({slides}) {
   }
 
   return (
-    <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+    <div className='steps-wrapper'>
+      <FaArrowAltCircleLeft className='cleft-arrow' onClick={prevSlide} />
+      <FaArrowAltCircleRight className='cright-arrow' onClick={nextSlide} />
       {slides.map((slide, index) => {
         return (
           <div
-            className={index === current ? 'slide active' : 'slide'}
+            className={index === current ? 'cslide active' : 'cslide'}
             key={index}
-          >
+          > 
             {index === current && (
             <div className='steps-card'>
             <div className='steps-images'>
-              <img src={Steps} />
+              <img src={slide.image} alt = "Concrete Steps Image" />
             </div>
             <div className='steps-description'>
-              <p>This is a p tag describing the steps Services
-                fsageth
-                ryj shkwrlthiouweetuyg erighw
+              <p>
+                Don't Belive us?
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ function ConcreteSlider({slides}) {
           </div>
         );
       })}
-    </section>
+    </div>
   );
 }
 
