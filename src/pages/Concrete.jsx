@@ -1,4 +1,5 @@
 import React from 'react'
+import {useRef} from 'react'
 import "./styles/Concrete.css"
 import { MdConstruction } from 'react-icons/md'
 import Step1 from "../Pictures/ConcretePics/Steps-1.jpg"
@@ -7,9 +8,10 @@ import Stamped1 from "../Pictures/ConcretePics/Stamped-1.jpg"
 import Stamped2 from "../Pictures/ConcretePics/Stamped-11.jpg"
 import Broom1 from "../Pictures/ConcretePics/Concrete-1.jpg"
 import Broom2 from "../Pictures/ConcretePics/Concrete-2.jpg"
-import 'swiper/css'
-import { StampedPicData } from '../PicData/StampedPicData'
-import {Swiper, SwiperSlide} from 'swiper/react'
+import "react-alice-carousel/lib/alice-carousel.css";
+import {StampedPicData} from '../PicData/StampedPicData'
+import ConcreteSlider from '../components/ConcreteSlider'
+
 function Concrete() {
   return (
     <div className='concrete-wrapper'>
@@ -37,10 +39,11 @@ function Concrete() {
           </p>
         </div>
       </div>
+      
       <p className='concrete-header'>Concrete Steps</p>
       <div className='concrete-container'>
         <div className='left-pic'>
-          <img src={Step1} alt="Step Picture" />
+          <img src={Step1}/>
         </div>
         <div className='center-description'>
           <p>
@@ -57,7 +60,7 @@ function Concrete() {
           </p>
         </div>
         <div className='right-pic'>
-          <img src={Step2} alt="Step Picture" />
+          <img src={Step2} />
         </div>
       </div>
       <p className='concrete-header'>Broomed Concrete</p>
@@ -99,6 +102,7 @@ function Concrete() {
         </div>
       </div>
       <p className='concrete-header'>Check out Our Work</p>
+      <ConcreteSlider slides = {StampedPicData}/>
     </div>
   )
 }

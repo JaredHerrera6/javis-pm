@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com'
 import HomePicData from '../PicData/HomePicData'
 import HomeGalleryPD from "../PicData/HomeGalleryPD"
 import {Link} from 'react-router-dom'
-import ImageSlider from "../components/ImageSlider";
+import ConcreteSlider from '../components/ConcreteSlider'
 
 function Home() {
   return (
@@ -17,7 +17,7 @@ function Home() {
             })}
         </div>
         <h2 className="gallery">Gallery</h2>
-        <ImageSlider slides = {HomeGalleryPD}/>
+        <ConcreteSlider slides = {HomeGalleryPD}/>
         <Mailer/>
         </div>
   )

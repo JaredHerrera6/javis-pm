@@ -86,3 +86,4 @@ export const StampedPicData = [
         "image":Stamped17,
     }
 ]
+export default StampedPicData;
