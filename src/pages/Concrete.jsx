@@ -1,5 +1,4 @@
 import React from 'react'
-import {useRef} from 'react'
 import "./styles/Concrete.css"
 import { MdConstruction } from 'react-icons/md'
 import Step1 from "../Pictures/ConcretePics/Steps-1.jpg"
@@ -40,7 +39,7 @@ function Concrete() {
         </div>
       </div>
       
-      <p className='concrete-header'>Concrete Steps</p>
+      <p className='service-header'>Concrete Steps</p>
       <div className='concrete-container'>
         <div className='left-pic'>
           <img src={Step1}/>
@@ -63,7 +62,7 @@ function Concrete() {
           <img src={Step2} />
         </div>
       </div>
-      <p className='concrete-header'>Broomed Concrete</p>
+      <p className='service-header'>Broomed Concrete</p>
       <div className="concrete-container">
         <div className='left-pic'>
           <img src={Broom1} alt="Broomed Concrete Pic" />
@@ -82,7 +81,7 @@ function Concrete() {
           <img src={Broom2} alt="Broomed Concrete Pic" />
         </div>
       </div>
-      <p className='concrete-header'>Stamped Concrete</p>
+      <p className='service-header'>Stamped Concrete</p>
       <div className='concrete-container'>
         <div className='left-Pic'>
           <img src={Stamped1} alt="Stamped Concrete Pic" />
@@ -101,7 +100,7 @@ function Concrete() {
           <img src={Stamped2} alt="Stamped Concrete Pic" />
         </div>
       </div>
-      <p className='concrete-header'>Check out Our Work</p>
+      <p className='service-header'>Check out Our Work</p>
       <ConcreteSlider slides = {StampedPicData}/>
     </div>
   )
