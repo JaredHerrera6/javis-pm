@@ -318,6 +318,7 @@ h2.gallery{
   text-decoration: none;
   transition:transform, 200ms ease-in;
   color: seagreen;
+  display: flex;
 }
 .footer-link:hover{
   background-color: lightgreen;
@@ -327,6 +328,11 @@ h2.gallery{
 .col-sm{
   font-size: 1.5rem;
   color: seagreen;
+}
+.footer-icon{
+  position: relative;
+  float: left;
+  margin-right:5px;
 }
 
 
