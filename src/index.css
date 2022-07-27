@@ -3,17 +3,14 @@ body {
   background: linear-gradient(-180deg, rgba(204, 197, 197, 0.5) 0%, rgba(53, 50, 50, 0.5) 100%) no-repeat center center fixed;
   overflow-x: hidden;
 }
-footer{
-  background-color: rgb(56, 53, 53);
-  text-align: center; 
-}
 .page-container{
   display: flex;
   flex-direction: column;
+  flex-flow: column nowrap;
   min-height: 100vh;
   width: 100%;
 }
-.content-wrap{
+main{
   flex:1
 }
 .navbar{
@@ -21,7 +18,7 @@ footer{
   display: flex;
   width: 1000px;
   background-color:rgb(56, 53, 53);
-  justify-content: space-between;
+  justify-content: space-around;
   border-width: 1px;
   border-style: solid;
   box-shadow: 10px 5px 5px seagreen;
@@ -80,7 +77,7 @@ footer{
 }
 .card-wrapper{
   display: grid;
-  grid-template-columns: 500px 500px 500px;
+  grid-template-columns: 500px 500px 500px 500px;
   column-gap: 120px;
   row-gap: 50px;
   text-align: center;
@@ -92,7 +89,7 @@ footer{
     grid-template-columns:1fr
   }
 }
-@media(min-width:751px) and (max-width:1650px){
+@media(min-width:751px) and (max-width:2000px){
   .card-wrapper{
     grid-template-columns: 1fr  1fr;
   }
@@ -157,11 +154,6 @@ footer{
   font-family:Roboto,Arial;
   font-weight: 420;
   color: rgb(56, 53, 53);
-}
-h4.services{
-  font-size: 2.5em;
-  color:green;
-  padding-bottom: 20px;
 }
 .email_form{
   display: flex;
@@ -233,42 +225,6 @@ h2.gallery{
   border-radius: 0.25rem;
   box-shadow: 10px 5px  5px seagreen;
 }
-.footContainer{
-  width:100vh;
-  margin:auto;
-}
-.col ul{
-  list-style: none;
-  color: seagreen;
-}
-.row{
-  display:flex;
-  flex-wrap: wrap;
-  font-size: 25px;
-}
-.col{
-  width: 30%;
-  padding:0 15px;
-}
-.col h4{
-  font-size: 30px;
-  color: seagreen;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  font-weight: 500;
-  position: relative;
-  margin-top: 0;
-  text-align: center;
-}
-.col .services{
-  margin-bottom: 0;
-}
-.col ul li:not(:last-child){
-  margin-bottom: 10px;
-}
-.col-sm{
-  color:seagreen;
-}
 .slider{
   display: flex;
   border-radius: 0.25rem;
@@ -323,6 +279,57 @@ h2.gallery{
   border-radius: 0.25rem;
   box-shadow: 10px 5px  5px rgb(56, 53, 53);
 }
+.main-footer{
+  color:aliceblue;
+  background-color:rgb(56, 53, 53);
+  padding-top: 1em;
+  bottom:0;
+  width: 100%;
+  position: relative;
+}
+.footContainer{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.info-row{
+  display:flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.info-row ul{
+  margin: auto;
+}
+.list-unstyled li{
+  list-style-type:none;
+}
+.col{
+  font-size: 1.5rem;
+  color: seagreen;
+  margin-bottom: 15px;
+}
+.footer-header{
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: seagreen;
+}
+.footer-link {
+  text-decoration: none;
+  transition:transform, 200ms ease-in;
+  color: seagreen;
+}
+.footer-link:hover{
+  background-color: lightgreen;
+  border-radius: 1px;
+  color:rgb(56, 53, 53);
+}
+.col-sm{
+  font-size: 1.5rem;
+  color: seagreen;
+}
+
+
 
 
 

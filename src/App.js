@@ -17,26 +17,22 @@ import "./pages/styles/Concrete.css"
 function App() {
   return (
     <div className="page-container">
-      <div className="content-wrap">
-    <Router>
-    <div className="site-title">
-      <Link to = "/" >Javis Property Maintenance</Link>
-    </div>
-      <Navbar/>
-      <main>
-        <Routes>
-        <Route path = "/" element = {<Home/>}/>
-        <Route path = "/concrete" element = {<Concrete/>}/>
-        <Route path = "/Drainage" element = {<Drainage/>}/>
-        <Route path = "/Masonry" element = {<Masonry/>}/>
-        <Route path = "/AboutUs" element = {<AboutUs/>}/>
-        <Route path = "/YardCleanUp" element = {<YardClean/>}/>
-        <Route path = "/SnowRemoval" element = {<SnowRemoval/>}/>
-        </Routes>
-      </main>
-    </Router>
-    </div>
-    <Footer/>
+        <Router>
+        <div className="site-title">
+          <Link to = "/" >Javis Property Maintenance</Link>
+        </div>
+          <Navbar/>
+          <main>
+            <Routes>
+            <Route path = "/" element = {<Home/>}/>
+            <Route path = "/concrete" element = {<Concrete/>}/>
+            <Route path = "/Drainage" element = {<Drainage/>}/>
+            <Route path = "/Masonry" element = {<Masonry/>}/>
+            <Route path = "/AboutUs" element = {<AboutUs/>}/>
+            </Routes>
+          </main>
+          <Footer/>
+        </Router>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import Drain1 from "../Pictures/DrainageSystemPics/Drain-1.jpg"
 import Drain2 from "../Pictures/DrainageSystemPics/Drain-2.jpg"
 import DownSpout1 from "../Pictures/DrainageSystemPics/DownSpout-1.jpg"
 import DrainagePicData from "../PicData/DrainagePicData.js"
-import ConcreteSlider from '../components/ConcreteSlider'
+import ConcreteSlider from '../components/ConcreteSlider'  
 import "./styles/Drainage.css"
 function Drainage() {
   return (

@@ -1,33 +1,35 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import{AiTwotoneHome} from 'react-icons/ai'
 import "../../index.css"
 function Footer() {
   return (
     <footer className='main-footer'>
             <div className = "footContainer">
-                <div className = "row">
+                <div className = "info-row">
                     <div className='col'>
-                        <h4 className="aboutjc">About JAVIS</h4>
                         <ul className='list-unstyled'>
-                            <li>Some text</li>
-                            <li>Describing </li>
-                            <li>The Company</li>
+                            <li className='footer-header'>UseFul Links</li>
+                            <li><Link to = "/" className='footer-link'>Home</Link></li>
+                            <li><Link to = "/concrete" className='footer-link'>Concrete</Link></li>
+                            <li><Link to = "/Drainage" className='footer-link'>Drainage System</Link></li>
+                            <li><Link to = "/Masonry" className='footer-link'>Masonry</Link></li>
+                            <li><Link to = "/AboutUs" className='footer-link'>About Us</Link></li>
                         </ul>
                     </div>
                     <div className='col'>
-                        <h4 className="services">Services</h4>
                         <ul className='list-unstyled'>
+                            <li className='footer-header'>Services</li>
                             <li>Concrete Installation</li>
                             <li>Concrete Removal</li>
                             <li>Drainage System Installations</li>
                             <li>Masonry</li>
-                            <li>Yard Cleaning</li>
-                            <li>Garbage Removal</li>
-                            <li>Snow Removal</li>
+                            <li>DownSpouting</li>
                         </ul>
                     </div>
                     <div className='col'>
-                        <h4 className="longername">Javis Property Maintenance LLC.</h4>
                         <ul className='list-unstyled'>
+                            <li className='footer-header'>Contact Information</li>
                             <li>Based In New Carrollton, MD</li>
                             <li>240-602-8980</li>
                             <li>Email Address</li>

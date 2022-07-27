@@ -35,24 +35,6 @@ const HomePicData = [
     },
     {
         id:uuidv4(),
-        "image":YardClean,
-        "title":"Yard Clean up",
-        "description":"Yard Clean Description",
-        "buttontext":"View Yard Cleaning",
-        "alt":"Yard Picture",
-        "route":"./YardCleanUp"
-    },
-    {
-        id:uuidv4(),
-        "image":Snow,
-        "title":"Snow Removal",
-        "description":"Snow Removal Description",
-        "buttontext":"View Snow Removal",
-        "alt":"Snow Removal Picture",
-        "route":"./SnowRemoval"
-    },
-    {
-        id:uuidv4(),
         "image":AboutUS,
         "title":"About Us",
         "description":"About Us Description",

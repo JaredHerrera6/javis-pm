@@ -8,8 +8,6 @@ function Navbar() {
         <Link to = "/concrete" className='navbar-link'>Concrete</Link>
         <Link to = "/Drainage" className='navbar-link'>Drainage System</Link>
         <Link to = "/Masonry" className='navbar-link'>Masonry</Link>
-        <Link to = "/YardCleanup" className='navbar-link'>Yard Clean Up</Link>
-        <Link to = "/SnowRemoval" className='navbar-link'>Snow Removal</Link>
         <Link to = "/AboutUs" className='navbar-link'>About Us</Link>
     </div>
   )
