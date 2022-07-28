@@ -4,7 +4,9 @@ import HomePicData from '../PicData/HomePicData'
 import HomeGalleryPD from "../PicData/HomeGalleryPD"
 import {Link} from 'react-router-dom'
 import ConcreteSlider from '../components/ConcreteSlider'
-
+const SERVICE_ID = process.env.REACT_APP_EMAIL_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
+const _FORM = process.env.REACT_APP_EMAIL_FORM;
 function Home() {
   return (
         <div className='home-container'>  
@@ -45,7 +47,7 @@ function Mailer () {
   function sendEmail(e){
       e.preventDefault();
 
-  emailjs.sendForm('service_83byb76', 'template_gy4a3u9', e.target, 'J6p5xiR9Vv_vyrrBu')
+  emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, _FORM)
       .then((result) => {
           alert("Your Message Has Been sent")
           console.log(result.text)
@@ -79,6 +81,6 @@ function Mailer () {
           </form>
       </div>
   )
-}
+} 
 
 export default Home

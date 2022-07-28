@@ -11,7 +11,9 @@ const [activeThumb,setActiveThumb] = useState();
   return (
     <div>
        <Swiper
+        slidesPerView='auto'
         loop={true}
+        infinite = {true}
         spaceBetween={10}
         navigation={true}
         modules = {[Navigation,Thumbs]}

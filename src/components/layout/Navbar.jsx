@@ -11,6 +11,6 @@ function Navbar() {
         <Link to = "/AboutUs" className='navbar-link'>About Us</Link>
     </div>
   )
-}
+} 
 
 export default Navbar

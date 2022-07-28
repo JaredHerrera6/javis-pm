@@ -18,10 +18,13 @@ function App() {
   return (
     <div className="page-container">
         <Router>
-        <div className="site-title">
-          <Link to = "/" >Javis Property Maintenance</Link>
-        </div>
+        <div className='navbar-container'>
+          <div className="site-title">
+            <Link to = "/" >Javis Property Maintenance</Link>
+          </div>
           <Navbar/>
+        </div>
+        
           <main>
             <Routes>
             <Route path = "/" element = {<Home/>}/>
