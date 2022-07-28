@@ -32,9 +32,9 @@ function Footer() {
                     <div className='col'>
                         <ul className='list-unstyled'>
                             <li className='footer-header'>Contact Information</li>
-                            <li>Based In New Carrollton, MD</li>
+                            <li>Based In Prince George's County</li>
                             <li>240-602-8980</li>
-                            <li>Email Address</li>
+                            <li>thejavismp@gmail.com</li>
                         </ul>
                     </div>
                 </div>

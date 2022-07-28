@@ -333,6 +333,11 @@ h2.gallery{
   float: left;
   margin-right:5px;
 }
+.not-found{
+  font-size: 3rem;
+  color: seagreen;
+  
+}
 
 
 

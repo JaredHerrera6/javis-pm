@@ -20,7 +20,7 @@ function Masonry() {
             Masonry Project In Mind?
           </p>
           <p>
-            JC Property Maintenance Offers several Masonry Service to 
+            Javis Property Maintenance Offers several Masonry Service to 
             Help turn a vision into reality.
           </p>
           <p>

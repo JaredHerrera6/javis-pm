@@ -6,9 +6,8 @@ import Home from "./pages/Home"
 import Concrete from "./pages/Concrete"
 import Drainage from "./pages/Drainage"
 import Masonry from "./pages/Masonry"
-import YardClean from "./pages/YardClean"
 import AboutUs from "./pages/AboutUs"
-import SnowRemoval from "./pages/SnowRemoval"
+import NotFound from './pages/NotFound';
 import "./index.css" 
 import "./pages/styles/Concrete.css"
 
@@ -32,6 +31,7 @@ function App() {
             <Route path = "/Drainage" element = {<Drainage/>}/>
             <Route path = "/Masonry" element = {<Masonry/>}/>
             <Route path = "/AboutUs" element = {<AboutUs/>}/>
+            <Route path = "/*" element = {<NotFound/>}/>
             </Routes>
           </main>
           <Footer/>

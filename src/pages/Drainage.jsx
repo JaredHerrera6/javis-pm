@@ -21,12 +21,12 @@ function Drainage() {
             Water Draining Issues?
           </p>
           <p>
-            JC Property Maintenance offers a
+            Javis Property Maintenance offers a
             wide variation of Drainage Installations and solutions to resolve
             all storm water drainage issues that are present to out Clients
           </p>
           <p>
-            JC Property Maintenance Specializes in all but not limited to the
+            Javis Property Maintenance Specializes in all but not limited to the
             intallations of French Drains , Drain box's, DownSpout Extesions,
             and Waterproofing 
           </p>
