@@ -5,9 +5,6 @@ import WaterProof from "../Pictures/DrainageSystemPics/WaterProof-5.jpg"
 import Drain from "../Pictures/DrainageSystemPics/Drain-1.jpg"
 import DownSpout from "../Pictures/DrainageSystemPics/DownSpout-1.jpg"
 import Masonry from "../Pictures/MasonryPics/Masonry-3.jpg"
-import YardClean from "../Pictures/HomePics/Yard.jpg"
-import Snow from "../Pictures/HomePics/SnowRemoval.jpg"
-import AboutUS from "../Pictures/HomePics/About.jpg"
 
 import {v4 as uuidv4} from "uuid"
 const HomeGalleryPD = [
@@ -52,25 +49,6 @@ const HomeGalleryPD = [
         "image":Masonry,
         "title":"Masonry",
         "alt":"Masonry Picture",
-    },
-    {
-        id:uuidv4(),
-        "image":YardClean,
-        "title":"Yard Clean up",
-        "alt":"Yard Picture",
-    },
-    {
-        id:uuidv4(),
-        "image":Snow,
-        "title":"Snow Removal",
-        "alt":"Snow Removal Picture",
-    },
-    {
-        id:uuidv4(),
-        "image":AboutUS,
-        "title":"About Us",
-        "alt":"About Us Picture",
-        
     }
 ]
 export default HomeGalleryPD;

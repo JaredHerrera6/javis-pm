@@ -1,16 +1,14 @@
 import Concrete from "../Pictures/HomePics/Concrete.jpg"
 import Masonry from "../Pictures/HomePics/Masonry.jpg"
 import AboutUS from "../Pictures/HomePics/About.jpg"
-import YardClean from "../Pictures/HomePics/Yard.jpg"
 import Drainage from "../Pictures/HomePics/Drainage.jpg"
-import Snow from "../Pictures/HomePics/SnowRemoval.jpg"
 import {v4 as uuidv4} from "uuid";
 const HomePicData = [
     {
         id:uuidv4(),
         "image": Concrete,
         "title": "Concrete",
-        "description":"Concrete Description",
+        "description":"Concrete Services and Designs",
         "buttontext":"View Concrete",
         "alt":"Concrete Picture",
         "route":"./concrete",
@@ -19,7 +17,7 @@ const HomePicData = [
         id:uuidv4(),
         "image":Drainage,
         "title":"Drainage Systems",
-        "description":"Drainage Description",
+        "description":"Drainage System Solutions",
         "buttontext":"View Drainage",
         "alt":"Drainage Picture",
         "route":"./Drainage"
@@ -28,7 +26,7 @@ const HomePicData = [
         id:uuidv4(),
         "image":Masonry,
         "title":"Masonry",
-        "description":"Masonry Description",
+        "description":"Masonry Services and Designs",
         "buttontext":"View Masonry",
         "alt":"Masonry Picture",
         "route":"./Masonry"
@@ -37,7 +35,7 @@ const HomePicData = [
         id:uuidv4(),
         "image":AboutUS,
         "title":"About Us",
-        "description":"About Us Description",
+        "description":"Learn About Our Company",
         "buttontext":"View About us",
         "alt":"About Us Picture",
         "route":"./AboutUs"

@@ -7,7 +7,7 @@ import Drain2 from "../Pictures/DrainageSystemPics/Drain-2.jpg"
 import DownSpout1 from "../Pictures/DrainageSystemPics/DownSpout-1.jpg"
 import DrainagePicData from "../PicData/DrainagePicData.js"
 import ConcreteSlider from '../components/ConcreteSlider'  
-import "./styles/Drainage.css"
+import "./styles/Concrete.css"
 function Drainage() {
   return (
     <div className='drainage-wrapper'>

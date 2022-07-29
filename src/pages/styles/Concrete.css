@@ -19,10 +19,39 @@
     justify-content: center;
     text-align: center;
     align-self: center;
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: Papyrus;
 }
 .concrete-icon{
+    position: relative;
+    float: left;
+    margin-right: auto;
+}
+.drainage-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+.drainage-service-description{
+    display: flex;
+    background-image: url("back2.jpg");
+    background-size:100% 100%; 
+    background-repeat: no-repeat;
+    box-shadow: 0px 15px 10px -15px #111;
+    margin: 30px 0 30px 0;
+    color:aliceblue
+}
+.drainage-services{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    font-size: 2rem;
+    font-family: Papyrus;
+}
+.drainage-icon{
     position: relative;
     float: left;
     margin-right: auto;
@@ -37,7 +66,7 @@
 .concrete-promise p{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size:2rem;
+    font-size: 1rem;
 }
 .steps-wrapper{
     display: flex;
@@ -47,7 +76,7 @@
 }
 .steps-card{
     display: flex;
-    width:15000px;
+    width:1500px;
     height:800px ;
     justify-content: center;
 
@@ -60,24 +89,24 @@
 }
 .steps-image{
     flex: 1;
-    width:600px;
+    width:500px;
     height: 100%;
 }
 .steps-images img{
     flex:1;
-    width: 598px;
+    width: 500px;
     object-fit: cover;
     box-shadow: 0px 20px 10px -20px #111;
     margin-bottom: 0;
 }
 .steps-description{
-    height: 800px;
+    height: 400px;
     display: table;
-    width: 800px;
+    width: 400px;
 }
 .steps-description p{
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.3rem;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
@@ -85,14 +114,13 @@
     border-radius:0px 6px 10px 10px;
 }
 .service-header{
-    height: 60px;
     display: block;
     background-color:rgb(56, 53, 53);
     color:seagreen;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     align-items: center;
-    width:70%;
+    width:50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 0.25rem;
@@ -101,7 +129,7 @@
 .cright-arrow{
     position:absolute;
     right: 15%;
-    font-size: 3rem;
+    font-size: 2rem;
     color:#000;
     z-index: 10;
     cursor: pointer;
@@ -110,7 +138,7 @@
   .cleft-arrow{
     position:absolute;
     left: 15%;
-    font-size: 3rem;
+    font-size: 2rem;
     color:#000;
     z-index: 10;
     cursor: pointer;
@@ -123,7 +151,7 @@
     
   }
   .concrete-container div{
-    width: 550px;
+    width: 400px;
   }
   .concrete-container img{
     height: 100%;
@@ -140,15 +168,49 @@
   .center-description p{
     text-align:center; 
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.1rem;
     color: aliceblue;
     margin: 30px 5px 0px 5px;
   }
   .sliderimg{
     width: 100%;
-    height: 500px;
+    height: 100px;
     object-fit: cover
   }
+  .concrete-promise .drain-question{
+    font-size: 2.5rem;
+    font-family: Papyrus;
+  }
+  .about-us-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+.aboutus-header{
+    font-size: 1.8rem;
+    margin-left: 5vh;
+    text-align: left;
+    text-decoration:overline underline rgb(56, 53, 53);
+    color:seagreen
+}
+.aboutus-message{
+    margin-left: 5vh;
+    width:85vh;
+    text-align: left;
+    color: seagreen;
+    font-size: 1.2rem;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(56, 53, 53);
+    border-radius: 1rem;
+}
+
+.aboutus-message p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
   
 
 

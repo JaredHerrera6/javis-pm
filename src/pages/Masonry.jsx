@@ -6,7 +6,7 @@ import Custom1 from "../Pictures/ConcretePics/Custom-1.jpg"
 import Custom2 from "../Pictures/ConcretePics/Custom-2.jpg"
 import MasonryPicData from "../PicData/MasonryPicData.js"
 import ConcreteSlider from '../components/ConcreteSlider' 
-import "./styles/Masonry.css"
+import "./styles/Concrete.css"
 function Masonry() {
   return (
     <div className='drainage-wrapper'>
