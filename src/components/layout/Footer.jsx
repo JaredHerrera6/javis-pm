@@ -34,6 +34,7 @@ function Footer() {
                             <li className='footer-header'>Contact Information</li>
                             <li>Based In Prince George's County</li>
                             <li>240-602-8980</li>
+                            <li>thejavismp@gmail.com</li>
                         </ul>
                     </div>
                 </div>

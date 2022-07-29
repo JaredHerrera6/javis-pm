@@ -22,7 +22,7 @@ main{
   border-style: solid;
   box-shadow: 10px 5px 5px seagreen;
 }
-@media(max-width:410){
+@media(max-width:410px){
   .navbar{
     justify-content: center;
   }
@@ -244,6 +244,11 @@ h2.gallery{
   display:flex;
   justify-content: space-evenly;
   text-align: left;
+}
+@media(max-width:420px){
+  .info-row{
+    flex-direction: column;
+  }
 }
 .info-row ul{
   margin: auto;
