@@ -6,7 +6,7 @@
 }
 .concrete-service-description{
     display: flex;
-    background-image: url("back2.jpg");
+    background: url("back2.jpg");
     background-size:100% 100%; 
     background-repeat: no-repeat;
     box-shadow: 0px 15px 10px -15px #111;
@@ -35,7 +35,7 @@
 }
 .drainage-service-description{
     display: flex;
-    background-image: url("back2.jpg");
+    background: url("back2.jpg");
     background-size:100% 100%; 
     background-repeat: no-repeat;
     box-shadow: 0px 15px 10px -15px #111;
@@ -110,12 +110,12 @@
     text-align: center;
     vertical-align: middle;
     display: table-cell;
-    background-image: linear-gradient(to bottom right,#233329,#63D471);
+    background: linear-gradient(to bottom right,#233329,#63D471);
     border-radius:0px 6px 10px 10px;
 }
 .service-header{
     display: block;
-    background-color:rgb(56, 53, 53);
+    background-color:rgba(56, 53, 53);
     color:seagreen;
     font-size: 2rem;
     text-align: center;
@@ -160,7 +160,7 @@
   .center-description{
     display: flex;
     flex-direction: column;
-    background-image:url("aesthetic-cement.jpg");
+    background:url("aesthetic-cement.jpg");
     background-repeat: no-repeat;
     justify-content: space-around;
     opacity: 0.9;
@@ -191,7 +191,7 @@
     font-size: 1.8rem;
     margin-left: 3.5%;
     text-align: left;
-    text-decoration:overline underline rgb(56, 53, 53);
+    text-decoration:overline underline rgba(56, 53, 53);
     color:seagreen
 }
 .aboutus-message{
@@ -202,7 +202,7 @@
     font-size: 1.2rem;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(56, 53, 53);
+    background-color:rgba(56, 53, 53);
     border-radius: 1rem;
 }
 
