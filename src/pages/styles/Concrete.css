@@ -3,6 +3,8 @@
     flex-direction: column;
     width: 100%;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 .concrete-service-description{
     display: flex;
@@ -173,8 +175,8 @@
      flex-direction: column;
     }
     .concrete-container div{
-        width: 400px;
         height: 300px;
+        width: 100%;
       }
   }
   .center-description p{
