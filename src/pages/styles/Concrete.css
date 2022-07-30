@@ -162,8 +162,20 @@
     flex-direction: column;
     background:url("aesthetic-cement.jpg");
     background-repeat: no-repeat;
-    justify-content: space-around;
+    justify-content: center;
     opacity: 0.9;
+  }
+  @media(max-width:450px){
+    .center-description p {
+        font-size: 1rem;
+    }
+    .concrete-container{
+     flex-direction: column;
+    }
+    .concrete-container div{
+        width: 400px;
+        height: 300px;
+      }
   }
   .center-description p{
     text-align:center; 

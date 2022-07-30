@@ -24,10 +24,8 @@ function Home() {
         </div>
   )
 }
-
 //Card Function which displays the information for each Job type/Page
 function Card(props){
-
   return(
      <div className="card">
       <div className="card_body">
