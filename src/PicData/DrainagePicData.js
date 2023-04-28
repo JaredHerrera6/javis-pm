@@ -8,28 +8,36 @@ import WaterProof5 from "../Pictures/DrainageSystemPics/WaterProof-5.jpg"
 import WaterProof6 from "../Pictures/DrainageSystemPics/WaterProof-6.jpg"
 const DrainagePicData = [
     {
-        "image":DownSpout1
+        
+        "alt": "Drain Picture"
     },
     {
-        "image":Drain1
+        
+        "alt": "Drain Picture"
     },
     {
-        "image":WaterProof1
+        
+        "alt": "Drain Picture"
     },
     {
-        "image":WaterProof2
+        
+        "alt": "Drain Picture"
     },
     {
-        "image":WaterProof3
+        
+        "alt": "Drain Picture"
     },
     {
-        "image":WaterProof4
+        
+        "alt": "Drain Picture"
     },
     {
-        "image":WaterProof5
+        
+        "alt": "Drain Picture"
     },
     {
-        "image":WaterProof6
+        
+        "alt": "Drain Picture"
     },
 ]
 export default  DrainagePicData;

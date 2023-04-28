@@ -28,19 +28,19 @@ const HomeGalleryPD = [
     },
     {
         id:uuidv4(),
-        "image":WaterProof,
+        
         "title":"WaterProofing",
         "alt":"WaterProofing Picture",
     },
     {
         id:uuidv4(),
-        "image":Drain,
+        
         "title":"Drainage System",
         "alt":"Drain Picture",
     },
     {
         id:uuidv4(),
-        "image":DownSpout,
+        
         "title":"DownSpout",
         "alt":"DownSpout Picture",
     },

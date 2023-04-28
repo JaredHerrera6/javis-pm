@@ -10,17 +10,17 @@ const _FORM = process.env.REACT_APP_EMAIL_FORM;
 function Home() {
   return (
         <div className='home-container'>  
-        <div className='services'>
-          <h2>Services</h2>
-        </div>
-        <div className="card-wrapper">
-            {HomePicData.map((item,index)=>{
-               return  Card(item)
-            })}
-        </div>
-        <h2 className="gallery">Gallery</h2>
-        <ConcreteSlider slides = {HomeGalleryPD}/>
-        <Mailer/>
+            <div className='services'>
+            <h2>Services</h2>
+            </div>
+            <div className="card-wrapper">
+                {HomePicData.map((item,index)=>{
+                return  Card(item)
+                })}
+            </div>
+            <h2 className="gallery">Gallery</h2>
+            <ConcreteSlider slides = {HomeGalleryPD}/>
+            <Mailer/>
         </div>
   )
 }
