@@ -1,43 +1,43 @@
 import DownSpout1 from "../Pictures/DrainageSystemPics/DownSpout-1.jpg"
+import DownSpout2 from "../Pictures/DrainageSystemPics/DownSpout-2.jpg"
 import Drain1 from "../Pictures/DrainageSystemPics/Drain-1.jpg"
-import WaterProof1 from "../Pictures/DrainageSystemPics/WaterProof-1.jpg"
-import WaterProof2 from "../Pictures/DrainageSystemPics/WaterProof-2.jpg"
-import WaterProof3 from "../Pictures/DrainageSystemPics/WaterProof-3.jpg"
-import WaterProof4 from "../Pictures/DrainageSystemPics/WaterProof-4.jpg"
-import WaterProof5 from "../Pictures/DrainageSystemPics/WaterProof-5.jpg"
-import WaterProof6 from "../Pictures/DrainageSystemPics/WaterProof-6.jpg"
+import Drain2 from "../Pictures/DrainageSystemPics/Drain-2.jpg"
+import WaterProof7 from "../Pictures/DrainageSystemPics/WaterProof-7.jpg"
+import WaterProof8 from "../Pictures/DrainageSystemPics/WaterProof-8.jpg"
+
+
+import{v4 as uuidv4} from 'uuid';
 const DrainagePicData = [
     {
-        
-        "alt": "Drain Picture"
+        id:uuidv4(),
+        "alt": "Drain Picture",
+        "image":Drain1
     },
     {
-        
-        "alt": "Drain Picture"
+        id:uuidv4(),
+        "alt": "Drain Picture",
+        "image":Drain2
     },
     {
-        
-        "alt": "Drain Picture"
+        id:uuidv4(),
+        "alt": "Water Proof",
+        "image":WaterProof7
     },
     {
-        
-        "alt": "Drain Picture"
+        id:uuidv4(),
+        "alt": "Water Proof",
+        "image":WaterProof8
     },
     {
-        
-        "alt": "Drain Picture"
+        id:uuidv4(),
+        "alt": "DownSpout",
+        "image":DownSpout1
     },
     {
-        
-        "alt": "Drain Picture"
+        id:uuidv4(),
+        "alt": "DownSpout",
+        "image":DownSpout2
     },
-    {
-        
-        "alt": "Drain Picture"
-    },
-    {
-        
-        "alt": "Drain Picture"
-    },
+    
 ]
 export default  DrainagePicData;

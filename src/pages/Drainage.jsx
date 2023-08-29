@@ -1,6 +1,11 @@
 import React from "react";
 import { GiWarpPipe } from "react-icons/gi";
-import Drainage1 from "../Pictures/HomePics/Drainage.jpg";
+import Drain1 from "../Pictures/DrainageSystemPics/Drain-1.jpg";
+import Drain2 from "../Pictures/DrainageSystemPics/Drain-2.jpg";
+import WaterProof7 from "../Pictures/DrainageSystemPics/WaterProof-7.jpg";
+import WaterProof8 from "../Pictures/DrainageSystemPics/WaterProof-8.jpg";
+import DownSpout1 from "../Pictures/DrainageSystemPics/DownSpout-1.jpg";
+import DownSpout2 from "../Pictures/DrainageSystemPics/DownSpout-2.jpg";
 import ConcreteSlider from "../components/ConcreteSlider";
 import DrainagePicData from "../PicData/DrainagePicData";
 import "./styles/Concrete.css";
@@ -30,7 +35,7 @@ function Drainage() {
       <p className="service-header">WaterProofing</p>
       <div className="concrete-container">
         <div className="left-pic">
-          <img src={Drainage1} />
+          <img src={WaterProof7} />
         </div>
         <div className="center-description">
           <p>
@@ -47,13 +52,13 @@ function Drainage() {
           </p>
         </div>
         <div className="right-pic">
-          <img src={Drainage1} />
+          <img src={WaterProof8} />
         </div>
       </div>
       <p className="service-header">Drainage Systems</p>
       <div className="concrete-container">
         <div className="left-pic">
-          <img src={Drainage1} alt="Broomed Concrete Pic" />
+          <img src={Drain1} alt="Broomed Concrete Pic" />
         </div>
         <div className="center-description">
           <p>
@@ -67,13 +72,13 @@ function Drainage() {
           </p>
         </div>
         <div className="right-pic">
-          <img src={Drainage1} alt="Broomed Concrete Pic" />
+          <img src={Drain2} alt="Broomed Concrete Pic" />
         </div>
       </div>
       <p className="service-header">DownSpout</p>
       <div className="concrete-container">
         <div className="left-Pic">
-          <img src={Drainage1} alt="Stamped Concrete Pic" />
+          <img src={DownSpout1} alt="Stamped Concrete Pic" />
         </div>
         <div className="center-description">
           <p>
@@ -87,7 +92,7 @@ function Drainage() {
           </p>
         </div>
         <div className="right-pic">
-          <img src={Drainage1} alt="Stamped Concrete Pic" />
+          <img src={DownSpout2} alt="Stamped Concrete Pic" />
         </div>
       </div>
       <p className="service-header">Check out Our Work</p>
