@@ -1,9 +1,9 @@
 import Stamped from "../Pictures/ConcretePics/Stamped-11.jpg"
 import Concrete from "../Pictures/ConcretePics/Concrete-2.jpg"
 import Steps from "../Pictures/ConcretePics/Steps-1.jpg"
-import WaterProof from "../Pictures/DrainageSystemPics/WaterProof-5.jpg"
-import Drain from "../Pictures/DrainageSystemPics/Drain-1.jpg"
-import DownSpout from "../Pictures/DrainageSystemPics/DownSpout-1.jpg"
+import Stamped2 from "../Pictures/ConcretePics/Stamped-3.jpg"
+import Stamped3 from "../Pictures/ConcretePics/Stamped-16.jpg"
+import Stamped4 from "../Pictures/ConcretePics/Stamped-13.jpg"
 import Masonry from "../Pictures/MasonryPics/Masonry-3.jpg"
 
 import {v4 as uuidv4} from "uuid"
@@ -28,21 +28,21 @@ const HomeGalleryPD = [
     },
     {
         id:uuidv4(),
-        
-        "title":"WaterProofing",
-        "alt":"WaterProofing Picture",
+        "image":Stamped2,
+        "title":"Stamped Concrete",
+        "alt":" Stamped Concrete Picture",
     },
     {
         id:uuidv4(),
-        
-        "title":"Drainage System",
-        "alt":"Drain Picture",
+        "image":Stamped3,
+        "title":"Stamped Concrete",
+        "alt":"STamped Concrete Picture",
     },
     {
         id:uuidv4(),
-        
-        "title":"DownSpout",
-        "alt":"DownSpout Picture",
+        "image":Stamped4,
+        "title":"Stamped Concrete",
+        "alt":"STamped Concrete Picture"
     },
     {
         id:uuidv4(),
